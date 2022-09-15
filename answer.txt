@@ -1,0 +1,7 @@
+1. A .gitignore file contains patterns or files that you want git to ignore on a commit. When we add our complete work directory git will ignore those files which matches the patterns in .gitignore . The .gitignore for a java project should include the package files (.jar, .war, .nar, .rar, .zip etc), class files (.class), log file (.log), IDE files and mobile tools for java (J2ME).
+
+2. Fast-forwarding in git simply means updating the head to the latest commit. Suppose the master branch is one commit behind the testbranch and you merge these branches then git simplifies this merge by moving the pointer of master to the latest commit.
+
+3. A branch represents the tip to a series of commits. It acts as a reference to a commit instead of having to copy files from directory to directory. Branches provide an alternative platform for a coder to work on without disturbing the main code. So it becomes easier to make changes in a code while maintaining the previous working code in the origin master branch and later merge the two after the changed code has no errors.
+
+4. Usually, we can have only one remote repository in a project. But, if we nee die can have more than one repository as well.
